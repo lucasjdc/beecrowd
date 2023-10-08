@@ -14,8 +14,6 @@ int main() {
         g1 /= 100;
         g2 /= 100;
 
-        //while (getchar() != '\n'); // código para limpar o buffer de entrada
-
         for (int j = 1; j < anos; j++) {
             pa = pa + (pa * g1);
             pb = pb + (pb * g2);
